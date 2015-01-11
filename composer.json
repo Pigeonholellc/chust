@@ -7,7 +7,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"barryvdh/laravel-ide-helper": "~1.11",
-	  	"laracasts/commander": "~1.0"
+	  	"laracasts/commander": "~1.0",
+	  	"zizaco/confide": "~4.0@dev"
 
 	},
 	"autoload": {

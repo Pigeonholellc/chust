@@ -123,7 +123,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
-		'Laracasts\Commander\CommanderServiceProvider'
+		'Laracasts\Commander\CommanderServiceProvider',
+		'Zizaco\Confide\ServiceProvider',
 
 	),
 
@@ -191,6 +192,7 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+		'Confide'    => 'Zizaco\Confide\Facade',
 
 	),
 
